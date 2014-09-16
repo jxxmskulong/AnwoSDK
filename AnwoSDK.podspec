@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   #s.source_files = "Extend/**/*.{h,m}"
   #s.resources = ["Core/**/*.strings","**/*.bundle"]
     #有米5.13
-  s.framework = 'QuartzCore','CoreLocation','StoreKit','SystemConfiguration','AdSupport','CoreTelephony','Foundation','CoreGraphics'
+  s.framework = 'QuartzCore','CoreLocation','StoreKit','SystemConfiguration','AdSupport','CoreTelephony','CoreGraphics'
   s.libraries = 'z.1.2.5'
   s.source_files = "zkcmoneSDK/*.{h,m,zip}"
   s.vendored_libraries = 'zkcmoneSDK/*.a'
