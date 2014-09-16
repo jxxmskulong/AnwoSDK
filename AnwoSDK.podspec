@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
     #有米5.13
   s.framework = 'QuartzCore','CoreLocation','StoreKit','SystemConfiguration','AdSupport','CoreTelephony','Foundation','CoreGraphics'
   s.libraries = 'z'
-  s.source_files = "zkcmoneSDK/**/*.{h,m,zip}"
-  s.vendored_libraries = 'zkcmoneSDK/res/*.a', 'zkcmoneSDK/zkcmone/*.a'
+  s.source_files = "zkcmoneSDK/*.{h,m,zip}"
+  s.vendored_libraries = 'zkcmoneSDK/*.a'
 end
